@@ -17,7 +17,8 @@
     "lint:md": "remark .",
     "start": "ember serve",
     "test": "ember test",
-    "test:coverage": "nyc npm test"
+    "test:coverage": "nyc npm test",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "7.2.1",
@@ -27,6 +28,9 @@
     "@ember/optional-features": "^0.6.3",
     "@mike-north/js-lib-renovate-config": "^1.2.0",
     "@mike-north/js-lib-semantic-release-config": "^1.0.1",
+    "@semantic-release/exec": "^3.3.1",
+    "@semantic-release/git": "^7.0.6",
+    "@semantic-release/github": "^5.2.6",
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.1.0",
     "ember-cli": "~3.6.0-beta.1",
@@ -57,13 +61,49 @@
     "remark-lint": "6.0.4",
     "remark-lint-no-dead-urls": "0.4.1",
     "remark-preset-lint-markdown-style-guide": "2.1.2",
-    "remark-preset-lint-recommended": "3.0.2"
+    "remark-preset-lint-recommended": "3.0.2",
+    "semantic-release": "^15.13.1"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
   },
   "release": {
-    "extends": "@mike-north/js-lib-semantic-release-config"
+    "verifyConditions": [
+      "@semantic-release/github"
+    ],
+    "prepare": [
+      {
+        "path": "@semantic-release/changelog",
+        "changelogFile": "CHANGELOG.md"
+      },
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": ".travis/build.sh ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
+        }
+      ],
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "CHANGELOG.md",
+          "index.html",
+          "assets/*",
+          "robots.txt",
+          "*.js"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    "publish": [
+      "@semantic-release/github"
+    ],
+    "success": [
+      "@semantic-release/github"
+    ],
+    "fail": [
+      "@semantic-release/github"
+    ]
   },
   "dependencies": {
     "@code-to-json/core": "^0.6.18",
