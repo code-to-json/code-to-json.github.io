@@ -832,7 +832,7 @@
     babel-runtime "6.26.0"
     execa "0.9.0"
 
-"@ember-decorators/babel-transforms@^3.1.0":
+"@ember-decorators/babel-transforms@3.1.5":
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/@ember-decorators/babel-transforms/-/babel-transforms-3.1.5.tgz#6df543f7f1d862ad54d05555d548805e032f6514"
   integrity sha512-dTcpIylGj+gU+GM3Se0mVn/NGcIFLDTJYE0h04WtBT+Szon8y0SKFPO4pyEz+NINNU6w+PRP/Y7GsT8txxdrYg==
@@ -4628,7 +4628,7 @@ ember-cli-test-loader@^2.2.0:
   dependencies:
     ember-cli-babel "^6.8.1"
 
-ember-cli-typescript-blueprints@^2.0.0-beta.1:
+ember-cli-typescript-blueprints@2.0.0-beta.1:
   version "2.0.0-beta.1"
   resolved "https://registry.yarnpkg.com/ember-cli-typescript-blueprints/-/ember-cli-typescript-blueprints-2.0.0-beta.1.tgz#2db2e34ad01b5a50a4459c2f7cfc8f132b21fcea"
   integrity sha512-tU1hN9Wj/nzWrSArogr/n9j8kfsv+2wueRuaIr7X+h4klb/Vb92bVkyW1xx8SW9hsWkv8n7ct8PzMmW033ws8g==
@@ -4649,7 +4649,7 @@ ember-cli-typescript-blueprints@^2.0.0-beta.1:
     inflection "^1.12.0"
     silent-error "^1.1.0"
 
-ember-cli-typescript@^2.0.0-beta.3:
+ember-cli-typescript@2.0.0-beta.3:
   version "2.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/ember-cli-typescript/-/ember-cli-typescript-2.0.0-beta.3.tgz#a27db5942664448c3cf81e1042c3ff6c0e24d5a2"
   integrity sha512-+pFKwU2lSMlOK/8QyLGf1yL4x+wjLzi40OwqJGGaWysiaG3c2Vuhx7e5NRaHc2ArhhXUDWiQrZfFUjMLSx8U9g==
@@ -4825,7 +4825,7 @@ ember-data@3.6.0:
     semver "^5.6.0"
     silent-error "^1.1.1"
 
-ember-decorators@^3.1.5:
+ember-decorators@3.1.5:
   version "3.1.5"
   resolved "https://registry.yarnpkg.com/ember-decorators/-/ember-decorators-3.1.5.tgz#4920982ac5546d5e72af3d8dcb66dd96e48c01a6"
   integrity sha512-F+EEhkWPv72he8PMBEEQrkEvd0ZkJ25hxQIkWVu/v5Opt7k2sMKRyP6Q+akv/az8Slz8sREgTSnOE6EYMwgfXA==
@@ -12599,7 +12599,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript-eslint-parser@^21.0.2:
+typescript-eslint-parser@21.0.2:
   version "21.0.2"
   resolved "https://registry.yarnpkg.com/typescript-eslint-parser/-/typescript-eslint-parser-21.0.2.tgz#270af10e4724528677fbcf34ea495284bec3a894"
   integrity sha512-u+pj4RVJBr4eTzj0n5npoXD/oRthvfUCjSKndhNI714MG0mQq2DJw5WP7qmonRNIFgmZuvdDOH3BHm9iOjIAfg==
