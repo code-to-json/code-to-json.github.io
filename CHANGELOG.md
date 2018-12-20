@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.1...v1.1.2) (2018-12-20)
+
+
+### Bug Fixes
+
+* **deps:** ember-cli-typescript ([d11a3a4](https://github.com/code-to-json/code-to-json.github.io/commit/d11a3a4))
+
 ## [1.1.1](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.0...v1.1.1) (2018-12-20)
 
 
