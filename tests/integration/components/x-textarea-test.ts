@@ -12,7 +12,7 @@ module('Integration | Component | x-textarea', function(hooks) {
 
     await render(hbs`{{x-textarea}}`);
 
-    assert.equal(this.element.textContent.trim(), '');
+    assert.equal(('' + this.element.textContent).trim(), '');
 
     // Template block usage:
     await render(hbs`
@@ -21,6 +21,6 @@ module('Integration | Component | x-textarea', function(hooks) {
       {{/x-textarea}}
     `);
 
-    assert.equal(this.element.textContent.trim(), 'template block text');
+    assert.equal(('' + this.element.textContent).trim(), 'template block text');
   });
 });
