@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@mike-north/js-lib-semantic-release-config",
+    "@mike-north/js-lib-renovate-config",
     ":pinAllExceptPeerDependencies"
   ]
 }
