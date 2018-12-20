@@ -79,7 +79,7 @@
       [
         "@semantic-release/exec",
         {
-          "publishCmd": ".travis/build.sh ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
+          "prepareCmd": ".travis/build.sh ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
         }
       ],
       {
