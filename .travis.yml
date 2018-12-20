@@ -20,7 +20,7 @@ env:
 stages:
   - build
   - name: deploy
-  - if: branch = master AND type = push
+    if: branch = master AND type = push
 
 jobs:
   fail_fast: true
