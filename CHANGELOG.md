@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.0...v1.1.1) (2018-12-20)
+
+
+### Bug Fixes
+
+* **deps:** ember-cli-babel ([4bbd8de](https://github.com/code-to-json/code-to-json.github.io/commit/4bbd8de))
+
 # [1.1.0](https://github.com/code-to-json/code-to-json.github.io/compare/v1.0.2...v1.1.0) (2018-12-20)
 
 
