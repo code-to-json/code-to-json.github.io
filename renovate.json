@@ -1,23 +1,6 @@
 {
-  "extends": ["config:js-lib"],
-  "automerge": true,
-  "major": {
-    "automerge": false
-  },
-  "devDependencies": {
-    "automerge": true
-  },
-  "packageRules": [
-    {
-      "packagePatterns": ["typescript", "tslint", "dtslint", "dtsgen", "tsutils"],
-      "groupName": "typescript packages",
-      "updateTypes": ["patch"],
-      "major": {
-        "automerge": false
-      },
-      "minor": {
-        "automerge": false
-      }
-    }
+  "extends": [
+    "@mike-north/js-lib-semantic-release-config",
+    ":pinAllExceptPeerDependencies"
   ]
 }
