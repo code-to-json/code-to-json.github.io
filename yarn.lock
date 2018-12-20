@@ -604,7 +604,7 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@code-to-json/core@^0.6.18":
+"@code-to-json/core@0.6.18", "@code-to-json/core@^0.6.18":
   version "0.6.18"
   resolved "https://registry.yarnpkg.com/@code-to-json/core/-/core-0.6.18.tgz#ce6276e58c179c95a178a22a3e4a4cb3e9de5320"
   integrity sha512-HCwQQGh8EwfYrQjL/lupvCCKQ+U6HIu79Wto2HmPpAB6O8QWc0wCj5C921vMAyCUFAXSrE4dn3R2Bia/PQovmA==
@@ -614,7 +614,7 @@
     debug "4.1.0"
     typescript "^3.1.0"
 
-"@code-to-json/formatter@^0.5.18":
+"@code-to-json/formatter@0.5.18":
   version "0.5.18"
   resolved "https://registry.yarnpkg.com/@code-to-json/formatter/-/formatter-0.5.18.tgz#2960ed1437613a9efe8f4eda7d76d0658cf83559"
   integrity sha512-VCd5NiT0XRDjTyxwW+Ihc4LR+7HmzAZ3PlCSwc+diW1uS4xBvc18dIrsOXJ6mZzegS9Tk0sNcAB92c4FXlRMTw==
@@ -782,7 +782,7 @@
     babel-runtime "6.26.0"
     execa "0.9.0"
 
-"@ember/jquery@^0.5.2":
+"@ember/jquery@0.5.2":
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/@ember/jquery/-/jquery-0.5.2.tgz#fe312c03ada0022fa092d23f7cd7e2eb0374b53a"
   integrity sha1-/jEsA62gAi+gktI/fNfi6wN0tTo=
@@ -792,7 +792,7 @@
     jquery "^3.3.1"
     resolve "^1.7.1"
 
-"@ember/optional-features@^0.6.3":
+"@ember/optional-features@0.6.4":
   version "0.6.4"
   resolved "https://registry.yarnpkg.com/@ember/optional-features/-/optional-features-0.6.4.tgz#8199f853c1781234fcb1f05090cddd0b822bff69"
   integrity sha512-nKmKxMk+Q/BGE8cmfq8KTHnYHVgrU3GHhy/eZ/OTj/fUvzXZhxaEVFOfAXssiOzV3FOQDJjznpbua2TEtHaQRw==
@@ -978,7 +978,7 @@
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-2.2.0.tgz#ee9d5a09c9969eade1ec864776aeda5c5cddbbf0"
   integrity sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
 
-"@semantic-release/exec@^3.0.2", "@semantic-release/exec@^3.3.1":
+"@semantic-release/exec@3.3.1", "@semantic-release/exec@^3.0.2":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/exec/-/exec-3.3.1.tgz#5d7acb2e43e86fc676a351bb38c5d5a9b007a3be"
   integrity sha512-dyktNa5cpV9TqQjxBIfCJKpDlKyYJ5OzL/04uBr9qUDXcDgaczGip3M/In/Ff/KGZSzkvrx+m96LVpng9+g5Tw==
@@ -990,7 +990,7 @@
     lodash "^4.17.4"
     parse-json "^4.0.0"
 
-"@semantic-release/git@^7.0.5", "@semantic-release/git@^7.0.6":
+"@semantic-release/git@7.0.6", "@semantic-release/git@^7.0.5":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-7.0.6.tgz#07f8fe177bcf65109c6bc2f504f1223d8e6a3d5a"
   integrity sha512-Uyi/RFBYv8jecMo7vJfjsr9rweJkOPuY6CJOITbOzhHmJjZssVOf7sS+zuqEQQsVzU+PPYIjx86HkIzbve/Evg==
@@ -1006,7 +1006,7 @@
     micromatch "^3.1.4"
     p-reduce "^1.0.0"
 
-"@semantic-release/github@^5.0.2", "@semantic-release/github@^5.1.0", "@semantic-release/github@^5.2.6":
+"@semantic-release/github@5.2.6", "@semantic-release/github@^5.0.2", "@semantic-release/github@^5.1.0":
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-5.2.6.tgz#633911ba6c185d30256f7d76b67b2dacf4ded162"
   integrity sha512-bk2+SN2KOvGBBhqbOWQHvh1hOctv712LRv5ll0GYo2WBvjI7urFSeS3HWYL79UUkyjHrYQIum2CJdvcCUjjw4g==
@@ -4099,7 +4099,7 @@ electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.92:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.95.tgz#79fac438813ca7f3db182a525c2ab432934f6484"
   integrity sha512-0JZEDKOQAE05EO/4rk3vLAE+PYFI9OLCVLAS4QAq1y+Bb2y1N6MyQJz62ynzHN/y0Ka/nO5jVJcahbCEdfiXLQ==
 
-ember-ajax@^3.1.0:
+ember-ajax@3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/ember-ajax/-/ember-ajax-3.1.3.tgz#f51b8e3e36765575a2698c8660e377d4d6371642"
   integrity sha512-C+BmWxXECGWuv7T17OHSQySpVuoCalmxI/NLUr+3eSlBeCD0xwI3mRRL1CbmAWXdyNwzK3je+lFCSuMaJu2miA==
@@ -4115,7 +4115,7 @@ ember-assign-polyfill@~2.4.0:
     ember-cli-babel "^6.6.0"
     ember-cli-version-checker "^2.0.0"
 
-ember-cli-app-version@^3.2.0:
+ember-cli-app-version@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ember-cli-app-version/-/ember-cli-app-version-3.2.0.tgz#7b9ad0e1b63ae0518648356ee24c703e922bc26e"
   integrity sha512-fHWOJElSw8JL03FNCHrT0RdWhGpWEQ4VQ10unEwwhVZ+OANNcOLz8O2dA3D5iuB4bb0fMLwjEwYZGM62+TBs1Q==
@@ -4292,7 +4292,7 @@ ember-cli-string-utils@^1.0.0, ember-cli-string-utils@^1.1.0:
   resolved "https://registry.yarnpkg.com/ember-cli-string-utils/-/ember-cli-string-utils-1.1.0.tgz#39b677fc2805f55173735376fcef278eaa4452a1"
   integrity sha1-ObZ3/CgF9VFzc1N2/O8njqpEUqE=
 
-ember-cli-template-lint@^1.0.0-beta.1:
+ember-cli-template-lint@1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/ember-cli-template-lint/-/ember-cli-template-lint-1.0.0-beta.2.tgz#0ebd2f8c1f9ca47f9ee3b42755d66262440c14f6"
   integrity sha512-i37mJhz+dll7eP/Y3Yh8oLw5aRqfdnIiutqdLsrvTSLb4VphDXbujXCO8XravvZtGeGBVYKXGsjTxobbPXgsgw==
@@ -4443,7 +4443,7 @@ ember-compatibility-helpers@^1.1.1:
     ember-cli-version-checker "^2.1.1"
     semver "^5.4.1"
 
-ember-data@~3.6.0-beta.1:
+ember-data@3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-3.6.0.tgz#6853983d6ab21f578b62b41b14f45c7b6f502aff"
   integrity sha512-N1jMJ8hHu/84MfbBg+RXobQXpczIv8xtFs4f+R/KzfX1vLSNwoxmNzw1OUKQnKnl3PrZCl3+5bojlK1SD7sPWw==
@@ -4495,7 +4495,7 @@ ember-load-initializers@^1.1.0:
   dependencies:
     ember-cli-babel "^6.6.0"
 
-ember-maybe-import-regenerator@^0.1.6:
+ember-maybe-import-regenerator@0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/ember-maybe-import-regenerator/-/ember-maybe-import-regenerator-0.1.6.tgz#35d41828afa6d6a59bc0da3ce47f34c573d776ca"
   integrity sha1-NdQYKK+m1qWbwNo85H80xXPXdso=
@@ -4575,7 +4575,7 @@ ember-template-lint@^1.0.0-beta.5:
     resolve "^1.1.3"
     strip-bom "^3.0.0"
 
-ember-welcome-page@^3.2.0:
+ember-welcome-page@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ember-welcome-page/-/ember-welcome-page-3.2.0.tgz#fe9903dbbaccfb4a2a05f42c716b7d07470f2d78"
   integrity sha512-aDUIGwPsAvv77K6jplnIvQamNBOuqRKlSXsaWaIkjpIi4ZTbDLnyDkuxMBgxCKiajr7wGhrghAelRQHbKUK5aw==
@@ -6139,7 +6139,7 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-husky@^1.3.0:
+husky@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/husky/-/husky-1.3.0.tgz#fbb97b5e52739d945fd86c3bf92def0ea60175c4"
   integrity sha512-0Yfh4PkWr8Nrume/lEMgSgK5zg8Q19jGM7jDmN7H92VrqgcYSbn+CM1iLGmAvQSNWuaPx9iq/rq/4Y8LPX6dLA==
@@ -11096,7 +11096,7 @@ sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-semantic-release@^15.13.1, semantic-release@^15.9.9:
+semantic-release@15.13.1, semantic-release@^15.9.9:
   version "15.13.1"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.13.1.tgz#18541032504aa0b443d011083685c9b42eb38c9f"
   integrity sha512-bkrfQ10BhbJRMeq/Ih9DZ9FO4ffDwFYsRR134JP9JvQSf8GVX4sg3SnFFd7Q10C6pKwjKqMZ4+ZNB5uQYMLPEg==
