@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.2...v1.1.3) (2018-12-21)
+
+
+### Bug Fixes
+
+* **deps:** [@code-to-json](https://github.com/code-to-json)/core ([ed84da1](https://github.com/code-to-json/code-to-json.github.io/commit/ed84da1))
+
 ## [1.1.2](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.1...v1.1.2) (2018-12-20)
 
 
