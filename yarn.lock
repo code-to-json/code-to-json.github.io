@@ -654,7 +654,17 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@code-to-json/core@0.6.18", "@code-to-json/core@^0.6.18":
+"@code-to-json/core@0.6.19":
+  version "0.6.19"
+  resolved "https://registry.yarnpkg.com/@code-to-json/core/-/core-0.6.19.tgz#0766647391ec77335d4982528ae4fb7661deab16"
+  integrity sha512-3R09u/BMFK0TKxd+xvLi8jbxKbPlz9T5xU6PHjJIaGYGIlpLKVGT61SQbvEKMMbxk2bNlYzBS2eyC1Zu6raGDA==
+  dependencies:
+    "@code-to-json/utils" "^0.5.19"
+    "@code-to-json/utils-ts" "^0.0.9"
+    debug "4.1.0"
+    typescript "^3.1.0"
+
+"@code-to-json/core@^0.6.18":
   version "0.6.18"
   resolved "https://registry.yarnpkg.com/@code-to-json/core/-/core-0.6.18.tgz#ce6276e58c179c95a178a22a3e4a4cb3e9de5320"
   integrity sha512-HCwQQGh8EwfYrQjL/lupvCCKQ+U6HIu79Wto2HmPpAB6O8QWc0wCj5C921vMAyCUFAXSrE4dn3R2Bia/PQovmA==
@@ -679,10 +689,22 @@
   dependencies:
     typescript "^3.1.0"
 
+"@code-to-json/utils-ts@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@code-to-json/utils-ts/-/utils-ts-0.0.9.tgz#68bde52e1ec4b6c239f1831be25e335eed906ce0"
+  integrity sha512-k0Nk/Has2HssH9j4/whQJk27n9O7Sayjl6xhr54xHKN1oEQSPjEhw/rNDOggN5N5vVj8KFZ/mjTe8PMP4Z3SIA==
+  dependencies:
+    typescript "^3.1.0"
+
 "@code-to-json/utils@^0.5.18":
   version "0.5.18"
   resolved "https://registry.yarnpkg.com/@code-to-json/utils/-/utils-0.5.18.tgz#5a77d27813a0fb151d1aeca0f6f41a7af0a72973"
   integrity sha512-p4GAUeI1EgQ/QNU+k907Pc+ZtDYuhyFvRU4uDuGPbEbOR0+GK58r1h4jXv1Wns5RMa3mjzcD2yPqd4mKfR45Fw==
+
+"@code-to-json/utils@^0.5.19":
+  version "0.5.19"
+  resolved "https://registry.yarnpkg.com/@code-to-json/utils/-/utils-0.5.19.tgz#cef78556c3264f09d76ebc49325a7f3cd6af65b3"
+  integrity sha512-5Em4BhhuRoptIgIVfxlRiSfEKQXUaPAFsMpn0RYfC2cH/GypFupxyTsNJjcTq71Q8eHWYERD/eczGCqJuka5Qw==
 
 "@commitlint/cli@7.2.1", "@commitlint/cli@^7.2.1":
   version "7.2.1"
