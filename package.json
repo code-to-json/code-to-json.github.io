@@ -73,7 +73,7 @@
     "remark-preset-lint-recommended": "3.0.2",
     "semantic-release": "15.13.3",
     "typescript": "3.2.2",
-    "typescript-eslint-parser": "21.0.2"
+    "typescript-eslint-parser": "22.0.0"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
