@@ -30,7 +30,7 @@
     "@mike-north/js-lib-renovate-config": "1.2.0",
     "@mike-north/js-lib-semantic-release-config": "1.0.1",
     "@semantic-release/exec": "3.3.2",
-    "@semantic-release/git": "7.0.7",
+    "@semantic-release/git": "7.0.8",
     "@semantic-release/github": "5.2.9",
     "@types/ember": "3.0.26",
     "@types/ember-data": "3.1.3",
