@@ -59,7 +59,7 @@
     "ember-maybe-import-regenerator": "0.1.6",
     "ember-qunit": "4.2.0",
     "ember-resolver": "5.0.1",
-    "ember-source": "3.7.0",
+    "ember-source": "3.7.1",
     "ember-welcome-page": "3.2.0",
     "eslint-plugin-ember": "6.1.0",
     "husky": "1.3.1",
@@ -119,7 +119,7 @@
   "dependencies": {
     "@code-to-json/core": "0.6.19",
     "@code-to-json/formatter": "0.5.19",
-    "ember-cli-babel": "7.2.0",
+    "ember-cli-babel": "7.4.0",
     "ember-cli-typescript": "2.0.0-rc.1",
     "ember-decorators": "5.0.0"
   },
