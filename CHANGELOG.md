@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.11...v1.1.12) (2019-02-24)
+
+
+### Bug Fixes
+
+* **deps:** @code-to-json/formatter ([0b58786](https://github.com/code-to-json/code-to-json.github.io/commit/0b58786))
+
 ## [1.1.11](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.10...v1.1.11) (2019-02-24)
 
 
