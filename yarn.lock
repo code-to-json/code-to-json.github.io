@@ -680,17 +680,7 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@code-to-json/core@0.6.19":
-  version "0.6.19"
-  resolved "https://registry.yarnpkg.com/@code-to-json/core/-/core-0.6.19.tgz#0766647391ec77335d4982528ae4fb7661deab16"
-  integrity sha512-3R09u/BMFK0TKxd+xvLi8jbxKbPlz9T5xU6PHjJIaGYGIlpLKVGT61SQbvEKMMbxk2bNlYzBS2eyC1Zu6raGDA==
-  dependencies:
-    "@code-to-json/utils" "^0.5.19"
-    "@code-to-json/utils-ts" "^0.0.9"
-    debug "4.1.0"
-    typescript "^3.1.0"
-
-"@code-to-json/core@^0.6.19":
+"@code-to-json/core@0.6.50", "@code-to-json/core@^0.6.19":
   version "0.6.50"
   resolved "https://registry.yarnpkg.com/@code-to-json/core/-/core-0.6.50.tgz#219c7870e25a232eacb43a925a11910aa1badd49"
   integrity sha512-j/xhLMOfb0ynF7JTypIeeBdH3nd63ytPQRMrvxcHlDSpE6Y6i89KvNMvHO6RjAuPNaA2BLse9LmZuR8eM0tLfw==
@@ -712,13 +702,6 @@
   version "0.0.40"
   resolved "https://registry.yarnpkg.com/@code-to-json/utils-ts/-/utils-ts-0.0.40.tgz#3ad726d42353b3f5886fc13ddff50fa731eee1ee"
   integrity sha512-q0D3j+rgVBBNK//Iz5bbI+A/wzsVo0xVKS6Gv09PgxKEHEjdTwVPPV3Ro50m1AwMJDsnQ9vsJgBnwf06raa5qA==
-  dependencies:
-    typescript "^3.1.0"
-
-"@code-to-json/utils-ts@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@code-to-json/utils-ts/-/utils-ts-0.0.9.tgz#68bde52e1ec4b6c239f1831be25e335eed906ce0"
-  integrity sha512-k0Nk/Has2HssH9j4/whQJk27n9O7Sayjl6xhr54xHKN1oEQSPjEhw/rNDOggN5N5vVj8KFZ/mjTe8PMP4Z3SIA==
   dependencies:
     typescript "^3.1.0"
 
@@ -4246,13 +4229,6 @@ debug@3.1.0, debug@~3.1.0:
   integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
   dependencies:
     ms "2.0.0"
-
-debug@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
-  integrity sha512-heNPJUJIqC+xB6ayLAMHaIrmN9HKa7aQO8MGqKpvCA+uJYVcvR6l5kgdrhRuwPFHU7P5/A1w0BjByPHwpfTDKg==
-  dependencies:
-    ms "^2.1.1"
 
 debug@4.1.1, debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@~4.1.0:
   version "4.1.1"
