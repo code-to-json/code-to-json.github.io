@@ -118,7 +118,7 @@
   },
   "dependencies": {
     "@code-to-json/core": "0.6.50",
-    "@code-to-json/formatter": "0.5.19",
+    "@code-to-json/formatter": "0.5.49",
     "ember-cli-babel": "7.5.0",
     "ember-cli-typescript": "2.0.0-rc.2",
     "ember-decorators": "5.0.0"
