@@ -1,3 +1,10 @@
+## [1.1.14](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.13...v1.1.14) (2019-03-04)
+
+
+### Bug Fixes
+
+* **deps:** ember-decorators ([ef85ebb](https://github.com/code-to-json/code-to-json.github.io/commit/ef85ebb))
+
 ## [1.1.13](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.12...v1.1.13) (2019-02-24)
 
 
