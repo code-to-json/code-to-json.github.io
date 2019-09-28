@@ -1,3 +1,12 @@
+## [1.1.18](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.17...v1.1.18) (2019-09-28)
+
+
+### Bug Fixes
+
+* **deps:** ember-cli-babel ([454b271](https://github.com/code-to-json/code-to-json.github.io/commit/454b271))
+* **deps:** stable ember infrastructure ([90b406b](https://github.com/code-to-json/code-to-json.github.io/commit/90b406b))
+* **deps:** stable ember infrastructure ([895061a](https://github.com/code-to-json/code-to-json.github.io/commit/895061a))
+
 ## [1.1.17](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.16...v1.1.17) (2019-08-12)
 
 
