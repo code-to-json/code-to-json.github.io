@@ -1229,7 +1229,7 @@
     once "^1.4.0"
     universal-user-agent "^4.0.0"
 
-"@octokit/rest@^16.13.1", "@octokit/rest@^16.27.0":
+"@octokit/rest@^16.27.0":
   version "16.35.2"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.35.2.tgz#0098c9e2a895d4afb0fa6578479283553543143c"
   integrity sha512-iijaNZpn9hBpUdh8YdXqNiWazmq4R1vCUsmxpBB0kCQ0asHZpCx+HNs22eiHuwYKRhO31ZSAGBJLi0c+3XHaKQ==
@@ -1309,30 +1309,7 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@5.2.12":
-  version "5.2.12"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-5.2.12.tgz#d59abd934fd187c604e90dd5db762d64a5d83a9f"
-  integrity sha512-1+Tm4KDUcmfLLMyw0O3zSSVNv54gizrLd4eT2xkxCXYlHBqj59KRhhA30C5r317tCud2FMUWSK3zWuBSeuBvnw==
-  dependencies:
-    "@octokit/rest" "^16.13.1"
-    "@semantic-release/error" "^2.2.0"
-    aggregate-error "^2.0.0"
-    bottleneck "^2.0.1"
-    debug "^4.0.0"
-    dir-glob "^2.0.0"
-    fs-extra "^7.0.0"
-    globby "^9.0.0"
-    http-proxy-agent "^2.1.0"
-    https-proxy-agent "^2.2.1"
-    issue-parser "^3.0.0"
-    lodash "^4.17.4"
-    mime "^2.0.3"
-    p-filter "^2.0.0"
-    p-retry "^4.0.0"
-    parse-github-url "^1.0.1"
-    url-join "^4.0.0"
-
-"@semantic-release/github@^5.0.2", "@semantic-release/github@^5.1.0":
+"@semantic-release/github@5.5.5", "@semantic-release/github@^5.0.2", "@semantic-release/github@^5.1.0":
   version "5.5.5"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-5.5.5.tgz#4666367f16d8ad91fd1d3c71a7238498de14ec38"
   integrity sha512-Wo9OIULMRydbq+HpFh9yiLvra1XyEULPro9Tp4T5MQJ0WZyAQ3YQm74IdT8Pe/UmVDq2nfpT1oHrWkwOc4loHg==
@@ -1804,14 +1781,6 @@ agentkeepalive@^3.4.1:
   integrity sha512-e0L/HNe6qkQ7H19kTlRRqUibEAwDK5AFk6y3PtMsuut2VAH6+Q4xZml1tNDJD7kSAyqmbG/K08K5WEJYtUrSlQ==
   dependencies:
     humanize-ms "^1.2.1"
-
-aggregate-error@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-2.2.0.tgz#f54b464db18cc77c907ae084451f39134707134a"
-  integrity sha512-E5n+IZkhh22/pFdUvHUU/o9z752lc+7tgHt+FXS/g6BjlbE9249dGmuS/SxIWMPhTljZJkFN+7OXE0+O5+WT8w==
-  dependencies:
-    clean-stack "^2.0.0"
-    indent-string "^3.0.0"
 
 aggregate-error@^3.0.0:
   version "3.0.1"
@@ -2917,7 +2886,7 @@ body@^5.1.0:
     raw-body "~1.1.0"
     safe-json-parse "~1.0.1"
 
-bottleneck@^2.0.1, bottleneck@^2.18.1:
+bottleneck@^2.18.1:
   version "2.19.5"
   resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.19.5.tgz#5df0b90f59fd47656ebe63c78a98419205cadd91"
   integrity sha512-VHiNCbI1lKdl44tGrhNfU3lup0Tj/ZBMJB5/2ZbNXRCPuRCO7ed2mgcK4r17y+KB2EfuYuRaVlwNbAeaWGSpbw==
@@ -4745,7 +4714,7 @@ diff@^4.0.1:
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.1.tgz#0c667cb467ebbb5cea7f14f135cc2dba7780a8ff"
   integrity sha512-s2+XdvhPCOF01LRQBC8hf4vhbVmI2CGS5aZnxLJlT5FtdhPCDFq80q++zK2KlrVorVDdL5BOGZ/VfLrVtYNF+Q==
 
-dir-glob@^2.0.0, dir-glob@^2.2.2:
+dir-glob@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/dir-glob/-/dir-glob-2.2.2.tgz#fa09f0694153c8918b18ba0deafae94769fc50c4"
   integrity sha512-f9LBi5QWzIW3I6e//uxZoLBlUt9kcp66qo0sSCxL6YZKc75R1c4MFCoe/LaZiBGmgujvQdxc5Bn3QhfyvK5Hsw==
@@ -7057,7 +7026,7 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-https-proxy-agent@^2.2.1, https-proxy-agent@^2.2.3:
+https-proxy-agent@^2.2.3:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.4.tgz#4ee7a737abd92678a293d9b34a1af4d0d08c787b"
   integrity sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
@@ -7773,17 +7742,6 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
-
-issue-parser@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/issue-parser/-/issue-parser-3.0.1.tgz#ee8dd677fdb5be64541f81fa5e7267baa271a7ee"
-  integrity sha512-5wdT3EE8Kq38x/hJD8QZCJ9scGoOZ5QnzwXyClkviSWTS+xOCE6hJ0qco3H5n5jCsFqpbofZCcMWqlXJzF72VQ==
-  dependencies:
-    lodash.capitalize "^4.2.1"
-    lodash.escaperegexp "^4.1.2"
-    lodash.isplainobject "^4.0.6"
-    lodash.isstring "^4.0.1"
-    lodash.uniqby "^4.7.0"
 
 issue-parser@^5.0.0:
   version "5.0.0"
@@ -8999,7 +8957,7 @@ mime@1.6.0:
   resolved "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
 
-mime@^2.0.3, mime@^2.4.3:
+mime@^2.4.3:
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/mime/-/mime-2.4.4.tgz#bd7b91135fc6b01cde3e9bae33d659b63d8857e5"
   integrity sha512-LRxmNwziLPT828z+4YkNzloCFC2YM4wrB99k+AV5ZbEyfGNWfG8SO1FUXLmLDBSo89NrJZ4DIWeLjy1CHGhMGA==
@@ -10122,11 +10080,6 @@ parse-entities@^1.0.2, parse-entities@^1.1.0:
     is-alphanumerical "^1.0.0"
     is-decimal "^1.0.0"
     is-hexadecimal "^1.0.0"
-
-parse-github-url@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/parse-github-url/-/parse-github-url-1.0.2.tgz#242d3b65cbcdda14bb50439e3242acf6971db395"
-  integrity sha512-kgBf6avCbO3Cn6+RnzRGLkUsv4ZVqv/VfAYkRsyBcgkshNvVBkRn1FEZcW0Jb+npXQWm2vHPnnOqFteZxRRGNw==
 
 parse-json@^4.0.0:
   version "4.0.0"
@@ -11935,10 +11888,10 @@ sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-semantic-release@15.13.30:
-  version "15.13.30"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.13.30.tgz#89a67d1c53fb1f3caee3ce9958a9017333747119"
-  integrity sha512-QetSFNr2hO6dZ/NDBh49neESF6OGinJfh4NcVhzMRg+rZpeqXq9sCbpZr0uDu+5HSkJYnX25MpMTF0QyyFhpxg==
+semantic-release@15.14.0:
+  version "15.14.0"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.14.0.tgz#6ee79b7b3598332378190412880049709fa23376"
+  integrity sha512-Cn43W35AOLY0RMcDbtwhJODJmWg6YCs1+R5jRQsTmmkEGzkV4B2F/QXkjVZpl4UbH91r93GGH0xhoq9kh7I5PA==
   dependencies:
     "@semantic-release/commit-analyzer" "^6.1.0"
     "@semantic-release/error" "^2.2.0"
@@ -11965,7 +11918,7 @@ semantic-release@15.13.30:
     resolve-from "^5.0.0"
     semver "^6.0.0"
     signale "^1.2.1"
-    yargs "^14.0.0"
+    yargs "^15.0.1"
 
 semantic-release@^15.9.9:
   version "15.13.31"
@@ -14033,14 +13986,6 @@ yargs-parser@^13.0.0, yargs-parser@^13.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
-yargs-parser@^15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-15.0.0.tgz#cdd7a97490ec836195f59f3f4dbe5ea9e8f75f08"
-  integrity sha512-xLTUnCMc4JhxrPEPUYD5IBR1mWCK/aT6+RJ/K29JY2y1vD+FhtgKK0AXRWvI262q3QSffAQuTouFIKUuHX89wQ==
-  dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
-
 yargs-parser@^16.1.0:
   version "16.1.0"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-16.1.0.tgz#73747d53ae187e7b8dbe333f95714c76ea00ecf1"
@@ -14107,23 +14052,6 @@ yargs@^13.2.2:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
-
-yargs@^14.0.0:
-  version "14.2.2"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.2.tgz#2769564379009ff8597cdd38fba09da9b493c4b5"
-  integrity sha512-/4ld+4VV5RnrynMhPZJ/ZpOCGSCeghMykZ3BhdFBDa9Wy/RH6uEGNWDJog+aUlq+9OM1CFTgtYRW5Is1Po9NOA==
-  dependencies:
-    cliui "^5.0.0"
-    decamelize "^1.2.0"
-    find-up "^3.0.0"
-    get-caller-file "^2.0.1"
-    require-directory "^2.1.1"
-    require-main-filename "^2.0.0"
-    set-blocking "^2.0.0"
-    string-width "^3.0.0"
-    which-module "^2.0.0"
-    y18n "^4.0.0"
-    yargs-parser "^15.0.0"
 
 yargs@^15.0.1:
   version "15.0.2"
