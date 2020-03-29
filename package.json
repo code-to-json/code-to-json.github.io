@@ -61,7 +61,7 @@
     "ember-resolver": "7.0.0",
     "ember-source": "3.17.0",
     "ember-welcome-page": "4.0.0",
-    "eslint-plugin-ember": "7.10.1",
+    "eslint-plugin-ember": "7.13.0",
     "husky": "1.3.1",
     "loader.js": "4.7.0",
     "nyc": "14.1.1",
@@ -119,7 +119,7 @@
   "dependencies": {
     "@code-to-json/core": "0.6.50",
     "@code-to-json/formatter": "0.5.49",
-    "ember-cli-babel": "7.18.0",
+    "ember-cli-babel": "7.19.0",
     "ember-cli-typescript": "2.0.0-rc.2",
     "ember-decorators": "5.2.0"
   },
