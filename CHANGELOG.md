@@ -1,3 +1,10 @@
+## [1.1.28](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.27...v1.1.28) (2021-02-06)
+
+
+### Bug Fixes
+
+* **deps:** stable ember infrastructure ([fa552cd](https://github.com/code-to-json/code-to-json.github.io/commit/fa552cdbb2b1dfb5adcd513b4cf0101c1f9d3afd))
+
 ## [1.1.27](https://github.com/code-to-json/code-to-json.github.io/compare/v1.1.26...v1.1.27) (2020-10-29)
 
 
